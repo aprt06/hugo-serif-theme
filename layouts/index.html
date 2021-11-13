@@ -15,8 +15,9 @@
         <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
       </div>
       {{ end }}
-    </div>
+     </div>
   </div>
+
 </div>
 
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}

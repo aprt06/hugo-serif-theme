@@ -38,6 +38,9 @@
     @include media-breakpoint-up(md) {
       width: 80%;
     }
+    img{
+      width: 200px;
+    }
   }
 }
 

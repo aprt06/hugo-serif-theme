@@ -35,6 +35,7 @@
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
+  {{ partial "script" . }}
   {{ partial "main-menu-mobile.html" . }}
   <div class="wrapper">
     {{ partial "header.html" . }}

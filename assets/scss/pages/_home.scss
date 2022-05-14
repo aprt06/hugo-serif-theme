@@ -1,2 +1,27 @@
-.page-home {
+ 
+body{
+    font-family: 'Itim'!important;
 }
+.page-home {
+    ul{
+        list-style-type: none;
+
+    }
+ }
+#promotion1{
+    background-color:#111546;
+    h1{
+        color:#efbf07;
+        -webkit-text-stroke:  0.5px white;
+        font-size: 5rem;
+        // text-stroke: 1px white;
+    }
+    h2{
+        font-size:1.7rem;
+        color:#efbf07;
+    }
+}
+// @include font-face(supermarketregular, fonts/supermarketregular);
+
+ 
+
